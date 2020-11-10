@@ -1,7 +1,7 @@
 Description
 -----------
 
-This driver is a Python wrapper of the  peak-linux-driver (in C) for Linux.
+This driver is a Python3 wrapper of the  peak-linux-driver (in C) for Linux.
 
 
 External dependencies
@@ -11,14 +11,14 @@ External dependencies
 
   - sudo apt-get install swig
 
-- peak-linux-driver-7.X and peak-linux-driver-8-X
+- peak-linux-driver-8-X
 
   - Please visit http://peak-system.com
   - compile the library with:
     - make NET=NO_NETDEV_SUPPORT
 
 - gcc
-- python-2.7
+- python-3.8
 
 
 Library compilation

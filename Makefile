@@ -8,7 +8,7 @@ LIBDIR			= ./lib/
 SRC			= ./src/
 PYTHONDIR		= ./pcan_python/
 LIBS			= -lpcan
-INC			= -I/usr/include/python2.7 -I/usr/include
+INC			= -I/usr/include/python3.8 -I/usr/include
 INSTALLDIR		= /usr/lib
 
 
@@ -51,5 +51,5 @@ clean:
 install:
 	$(MAKE);
 	cp $(LIBDIR)$(EXE) $(INSTALLDIR);
-	python setup.py install
+	python3 setup.py install
 
